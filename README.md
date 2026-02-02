@@ -1,1 +1,6 @@
 # Python-program-to-delete-an-element-from-a-list-by-index
+numbers=[3,4,1,9,6,2,8]
+print(numbers)
+x=int(intput("Enter the position of the element to be deleted:"))
+numbers.pop(x)
+print(numbers)
